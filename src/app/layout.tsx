@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Neuko art Gallery",
+  title: "Neuko Art Gallery",
   description: "A cool animated art gallery built with Next.js + TypeScript",
 };
 
