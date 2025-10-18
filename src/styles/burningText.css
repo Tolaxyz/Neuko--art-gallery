@@ -1,0 +1,25 @@
+.burning-text {
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500, 0 0 20px #ff6347,
+    0 0 40px #ff0000, 0 0 60px #ff4500, 0 0 80px #ff6347, 0 0 100px #ff0000;
+  animation: burn 1.5s infinite alternate;
+}
+
+@keyframes burn {
+  0% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff4500, 0 0 20px #ff6347,
+      0 0 40px #ff0000, 0 0 60px #ff4500, 0 0 80px #ff6347;
+    color: #ff4d4d;
+  }
+  50% {
+    text-shadow: 0 0 10px #ff6347, 0 0 20px #ff4500, 0 0 30px #ff0000,
+      0 0 50px #ff6347, 0 0 70px #ff4500, 0 0 90px #ff0000;
+    color: #ff1a1a;
+  }
+  100% {
+    text-shadow: 0 0 8px #ff0000, 0 0 18px #ff6347, 0 0 28px #ff4500,
+      0 0 48px #ff0000, 0 0 68px #ff4500, 0 0 88px #ff6347;
+    color: #ff6666;
+  }
+}

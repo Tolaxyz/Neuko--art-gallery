@@ -1,22 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
+import "../styles/burningText.css"; // create this CSS file
 
 export default function Header() {
   return (
-    <motion.h1
-      className="text-4xl md:text-5xl font-extrabold text-center mt-6 text-white"
-      animate={{
-        rotate: [0, -3, 3, -3, 3, 0], // wiggle
-      }}
-      transition={{
-        repeat: Infinity,
-        repeatType: "loop",
-        duration: 2,
-        ease: "easeInOut",
-      }}
-    >
-      lamumudotxyz art gallery
+    <motion.h1 className="burning-text text-4xl md:text-5xl font-extrabold text-center mt-6">
+      NEUKO art gallery ¡¡¡
     </motion.h1>
   );
 }
